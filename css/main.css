@@ -5,6 +5,11 @@
 
 button {
     background-color: #ABC8E5;
+    padding: 12px;
+}
+
+button:hover {
+    background-color: #7c9dbe;
 }
 
 .container {
