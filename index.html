@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Generate a Random Sim</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <h1>Random Sims Character Generator</h1>
+
+  <main>
+    <p>Create a random Teen-Elder Sim from this brand new generator!</p>
+    <div class="container">
+        <div class="generator">
+            <p>Career:
+                <span id="careers"></span>
+            </p>
+        </div>
+        <div class="generator">
+            <p>Trait:
+                <span id="traits"></span>
+            </p>
+        </div>
+        <div class="generator">
+            <p>Aspiration:
+                <span id="aspirations"></span>
+            </p>
+        </div>
+        <div class="generator">
+            <p>Hair Color:
+                <span id="hair"></span>
+            </p>
+        </div>
+        <div class="generator">
+            <p>Eye Color:
+                <span id="eyes"></span>
+            </p>
+        </div>
+        <div class="generator">
+            <p>Age:
+                <span id="age"></span>
+            </p>
+        </div>
+        <div class="generator">
+            <p>Fashion Preference:
+                <span id="style"></span>
+            </p>
+        </div>
+        
+        <button type="button" id="randomizer" onclick="generateRandomSim()">
+            randomize
+        </button>
+    </div>
+  </main>
+
+  <script type="text/javascript" src="js/mock-data.js"></script>
+  <script type="text/javascript" src="js/generate-sim.js"></script>
+</body>
+
+</html>
